@@ -13,7 +13,7 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 # Define the class names for CIFAR-10 (10 categories)
-class_names = ['airplane', 'automobile', 'bird', 'cat', 'tiger ', 'dog', 'frog', 'horse', 'ship', 'truck']
+class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 # Step 2: Define the Convolutional Neural Network (CNN) architecture
 model = models.Sequential([
